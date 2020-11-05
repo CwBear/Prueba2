@@ -61,7 +61,8 @@ public class Home_Act extends AppCompatActivity {
         clientes.add("Seleccione Cliente");
         clientes.add("Axel");
         clientes.add("Roxana");
-
+        clientes.add("Betzabe");
+        clientes.add("Matias");
 
 
         credito.add("Tipo de Credito");
