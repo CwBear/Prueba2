@@ -29,8 +29,9 @@ public class Maps_act extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng sydney = new LatLng(-33.493512, -70.628554);
+        LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Sede San Joaquin, Chile"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
+//-33.493512,-70.628554
